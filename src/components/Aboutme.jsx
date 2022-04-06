@@ -46,7 +46,7 @@ const Aboutme = () => {
                     </AnimationOnScroll>
                 </div>
             </div>
-            <img style={{width: '100%', height: '100%'}} className={s.img} src={Html} ></img>
+            <img className={s.img} src={Html} ></img>
         </div>
     )
 }
