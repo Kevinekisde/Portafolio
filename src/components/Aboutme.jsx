@@ -26,7 +26,6 @@ const Aboutme = () => {
                 </div>
             </AnimationOnScroll>
                 <div className={s.AboutmeContainerTecnologies}>
-                    <AnimationOnScroll animateIn="animate__fadeInUp" >
 
                     <h1>Abilities:</h1>
                     <div >
@@ -43,7 +42,7 @@ const Aboutme = () => {
                            <li className={s.Python}><DiPython></DiPython>Python</li>
                        </ul>
                     </div>
-                    </AnimationOnScroll>
+
                 </div>
             </div>
             <AnimationOnScroll animateIn="animate__fadeInUp" >
