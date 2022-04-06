@@ -26,6 +26,7 @@ const Aboutme = () => {
                 </div>
             </AnimationOnScroll>
                 <div className={s.AboutmeContainerTecnologies}>
+                    <AnimationOnScroll animateIn="animate__fadeInUp" >
 
                     <h1>Abilities:</h1>
                     <div >
@@ -42,12 +43,10 @@ const Aboutme = () => {
                            <li className={s.Python}><DiPython></DiPython>Python</li>
                        </ul>
                     </div>
-
+                    </AnimationOnScroll>
                 </div>
             </div>
-            <AnimationOnScroll animateIn="animate__fadeInUp" >
             <img style={{width: '100%', height: '100%'}} className={s.img} src={Html} ></img>
-            </AnimationOnScroll>
         </div>
     )
 }
