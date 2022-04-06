@@ -16,6 +16,7 @@
 }
 
 .Home{
+    padding-top:180px;
     display:flex;   
     width: 100%;
     height: 100%;
@@ -27,6 +28,10 @@
 .Home > h1 {
     font-size: 13vh;
 
+}
+
+.Home > h2 {
+    padding-top:20px;
 }
 
 .spanname{

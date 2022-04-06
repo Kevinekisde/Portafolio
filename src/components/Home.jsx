@@ -19,10 +19,11 @@ const Home = () => {
         <h1 className="animate__animated animate__backInDown">Hey, <span className={s.spanname}>I'm Kevin</span></h1>
         <h2>I’m a Fullstack Web Developer</h2>
         <div className={s.Tecnologies}>
-          <img src={ReactImg} style={{ width: '80px', height: '80px' }} className="animate__animated animate__rotateIn" />
-          <img src={JsImg} style={{ width: '80px', height: '80px' }} className="animate__animated animate__pulse" />
-          <img src={Html} style={{ width: '100px', height: '80px' }} className="animate__animated animate__pulse" />
-          <img src={CSS} style={{ width: '80px', height: '80px' }} className="animate__animated animate__pulse" />
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
         </div>
         <img className={s.wave} src={wave}></img>
         <Aboutme></Aboutme>
