@@ -138,6 +138,8 @@
         width: 80%;
     }
     .AboutmeContainer{
+        position: absolute;
+        top: 92vh;
         flex-direction: column;
     }
    .AboutmeContainerTecnologies{
