@@ -3,12 +3,9 @@ import Aboutme from './Aboutme';
 import Proyects from './Proyects';
 import s from './styles/Home.module.css'
 import 'animate.css';
-
-import ReactImg from './img/React.png'
-import JsImg from './img/js.png'
-import Html from './img/Html.png'
+import { BsGithub,BsLinkedin,BsWhatsapp } from "react-icons/bs";
 import wave from './img/wave.svg'
-import CSS from './img/CSS.png'
+
 
 
 const Home = () => {
@@ -20,9 +17,9 @@ const Home = () => {
         <h2>I’m a Fullstack Web Developer</h2>
         <div className={s.Tecnologies}>
           <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
+            <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
+            <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
           </ul>
         </div>
         <img className={s.wave} src={wave}></img>

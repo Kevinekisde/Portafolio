@@ -38,13 +38,21 @@
     color: #1f1067;
 }
 
-
 .Tecnologies{
+    width: 20%;
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-top:2vh;
+}
+.Tecnologies > ul {
+    padding-top:20px;
+    list-style: none;
+    font-size:40px;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 
