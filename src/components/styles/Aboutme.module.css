@@ -1,0 +1,170 @@
+.AboutmeContainer{
+    position: relative;
+    width:100%;
+    min-height:80vh;
+    background-color:#462de7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.Aboutme{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.AboutmeText{
+    display: flex;
+    justify-content:center;
+    font-size:30px;
+}
+.Aboutmep{
+    font-size:20.8px;
+    text-align:justify;
+}
+
+.AboutmeContainerTecnologies{
+    display:flex;   
+    width: 100%;
+    border-radius:20px;
+    justify-content:flex-start;
+    flex-direction: column;
+   
+}
+
+.abilities{
+    padding-left: 0;
+    font-size: 20px;
+    width: 80%;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    justify-content: flex-start;
+}
+.js{
+    display: inline;    
+    align-items: center;
+    color:#ffd200;
+}
+.react{
+    color:#68e1fd;
+}
+
+.node{
+    color:#89bb3c;
+}
+
+.mongo{
+    color:#7eb85a;
+}
+
+.sql{
+    color:#e7e680;
+}
+.fb{
+    color:#e97b0a;
+}
+.boot{
+    color:#8e61d1;
+}
+.Css{
+    color:#1399d1
+}
+.Html{
+    color:#e56127;
+}
+
+.Python{
+    justify-content:center;
+    align-items:center;
+    color:#0079e9;
+}
+.img{
+    padding-top: 40px;
+    width: 40%;
+    animation: ilustrationAnimate ease-in 1s infinite alternate;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 20vh;
+    
+    padding-bottom: 10px;
+}
+
+
+.buttonDownload{
+    border: none;
+    width: 30vh;
+    height: 8vh;
+    border-radius: 20px;
+    background: crimson;
+    color: white;
+    font-weight: bolder;  
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.buttonDownload:hover{
+    background:#383838;
+    color: white
+
+}
+
+@keyframes ilustrationAnimate{
+    0%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.04);
+    }
+}
+
+
+@media (max-width: 600px){
+    .Aboutme{
+        padding-top: 80px;
+        width: 80%;
+    }
+    .AboutmeContainer{
+        flex-direction: column;
+    }
+   .AboutmeContainerTecnologies{
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .abilities{
+    padding-left: 0;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    /* flex-flow: column; */
+    justify-content: flex-start;
+    align-items: center;
+   }
+   .img{
+    width: 80%;
+   }
+}
