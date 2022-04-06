@@ -151,7 +151,8 @@
         flex-direction: column;
     }
    .AboutmeContainerTecnologies{
-    padding-left: 0;
+    
+    padding-left: 13px;
     display: flex;
     width: 100%;
     text-align: center;
@@ -159,9 +160,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 33px;
+
    }
    .abilities{
-    padding-left: 0;
+    padding-top: 20px;
     font-size: 14px;
     flex-wrap: nowrap;
     width: 100%;
