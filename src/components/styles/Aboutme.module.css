@@ -97,6 +97,10 @@
     align-items:center;
     color:#0079e9;
 }
+
+.Type{
+    color: #ffd200;
+}
 .img{
     padding-top: 40px;
     width: 40%;
@@ -147,7 +151,7 @@
     }
     .AboutmeContainer{
         position: relative;
-        top: -1vh;
+        top: 0vh;
         flex-direction: column;
     }
    .AboutmeContainerTecnologies{
