@@ -17,7 +17,7 @@ const Aboutme = () => {
             <AnimationOnScroll animateIn="animate__fadeInUp" >
                 <h1 className={s.AboutmeText}>About me:</h1>
                 <p className={s.Aboutmep}> I am a young man very fond of computers💻and technologies in general, always trying to deliver the best quality product and every day increasing my professional and personal knowledge.<br />
-                    I started in the world of programming because since i was a child i've been in love with computers and video games 🎮,
+                    I started in the world of programming because since I was a child i've been in love with computers and video games 🎮,
                     I was interested in knowing how a video game is created and in the future be able to create one, a childhood dream that became what I love. 💛
                 </p>
                 <div className={s.button}>

@@ -13,7 +13,7 @@ const Proyects = () => {
     <div className={s.proyectContainer}>
       <AnimationOnScroll animateIn="animate__rotateInUpLeft" >
         <div className={s.proyects}>
-          <h1>My principal Proyects</h1>
+          <h1>My main Proyects</h1>
           <div className={s.cards}>
             <div className={s.card}>
               <img className={s.img} src={minPoke} />
