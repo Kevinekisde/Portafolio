@@ -43,8 +43,13 @@
   height: 350px;
   border-radius:15px;
   align-items: center;
+  transition: all 0.5s
+
+}
 
 
+.card:hover{
+  transform: scale(1.05);
 }
 
 
