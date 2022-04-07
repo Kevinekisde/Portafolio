@@ -109,6 +109,9 @@
 
 @media (max-width: 600px){
 
+  .proyects{
+    font-size:15px;
+  }
   .proyectContainer{
     display: relative;
     top: 10px;
