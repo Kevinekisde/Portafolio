@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Form from "./components/Form"
-import Home from "./components/Home"
+import Form from "./components/Form.js"
+import Home from "./components/Home.jsx"
 
 function App() {
 
