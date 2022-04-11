@@ -111,3 +111,46 @@
 .Imgandcontact > ul > li > a{
     color: #f9b246;
 }
+
+
+@media (max-width: 600px){
+
+    .cajita{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:85vh;
+        background-color: white;
+    }
+
+    .Imgandcontact{
+        display:none;
+    }
+
+    .Form{
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top:30px;
+        padding-left:30px;
+        width:100%;
+    }
+    .input{
+        background-color:#f4f6fd;
+        width:40vh;
+        height:4vh;
+        border:none;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .area{
+        border-radius: 20px;
+        width:40vh;
+        height:10vh;
+        background-color:#f4f6fd;
+        border: none;
+        text-align: center;
+        resize:none;
+    }
+}
