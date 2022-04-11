@@ -3,7 +3,7 @@ import Email from './img/Email.svg'
 import { BsGithub,BsLinkedin,BsWhatsapp } from "react-icons/bs";
 import s from './styles/Form.module.css'
 
-const Form = () => {
+export default function Form() {
     return (
         <div className={s.container}>
             <div className={s.cajita}>
@@ -42,4 +42,3 @@ const Form = () => {
     )
 }
 
-export default Form
