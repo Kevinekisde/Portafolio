@@ -1,12 +1,16 @@
-import Aboutme from "./components/Aboutme"
+import { BrowserRouter,Route,Routes } from "react-router-dom"
+import Form from "./components/Form"
 import Home from "./components/Home"
 
 function App() {
 
   return (
-    <>  
-    <Home/>
-    </>
+    <BrowserRouter>
+    <Routes>  
+    <Route path="/" element={<Home/>}/>
+    <Route path="/form" element={<Form/>}></Route>
+    </Routes>
+    </BrowserRouter>
   )
 }
 

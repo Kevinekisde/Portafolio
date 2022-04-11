@@ -4,6 +4,7 @@ import Proyects from './Proyects';
 import s from './styles/Home.module.css'
 import 'animate.css';
 import { BsGithub,BsLinkedin,BsWhatsapp } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 import wave from './img/wave.svg'
 
 
@@ -20,6 +21,7 @@ const Home = () => {
             <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
             <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
             <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
+            <li><a href="/form"><SiGmail></SiGmail></a></li>
           </ul>
         </div>
         <img className={s.wave} src={wave}></img>
