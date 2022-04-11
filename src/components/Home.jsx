@@ -22,7 +22,6 @@ const Home = () => {
             <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
             <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
             <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
-            <Link to="/form"><SiGmail></SiGmail></Link>
           </ul>
         </div>
         <img className={s.wave} src={wave}></img>
